@@ -60,11 +60,11 @@
               <li class="nav-item">
                 <a class="nav-link" href="club.html">Club</a>
               </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="player.html">Player <span class="sr-only">(current)</a>
-              </li>
               <li class="nav-item">
-                <a class="nav-link" href="stadium.html">Stadium</a>
+                <a class="nav-link" href="player.html">Player </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="stadium.html">Stadium<span class="sr-only">(current)</a>
               </li>
             </ul>
           </div>
@@ -75,110 +75,93 @@
   </div>
 
   <!-- player section -->
-
   <br>
   <section class="food_section layout_padding-bottom">
     <div class="container">
       <div class="heading_container heading_center">
-        <h2>
-          Player Information
-        </h2>
+        <div id="target1">
+            <h2>
+            stadium information
+            </h2>
+        </div>
       </div>
 
-      <ul class="filters_menu">
-        <li class="active" data-filter="*">All</li>
-        <li data-filter=".gScal">GS Caltex</li>
-        <li data-filter=".ibk">IBK</li>
-        <li data-filter=".kgc">KGC</li>
-        <li data-filter=".pepper">PEPPER</li>
-        <li data-filter=".heungkuk">Heungkuk</li>
-        <li data-filter=".kec">Korea Expressway</li>
-        <li data-filter=".hdec">HDEC</li>
-      </ul>
-
       <div class="filters-content">
-        <div class="row grid">
-          <div class="col-sm-6 col-lg-4 all ibk">
+          <div class="col-sm-12 col-lg-12">
             <div class="box">
               <div>
-                <div class="img-box">
-                  <img src="images/player_image/1/1.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>Name</h5>
-                  <h5>club name</h5> <h5>captain</h5>
-                  <br>
-                  <div class="options">
-                    <input type="submit" value="more details" class="btn btn-warning">
-                    <br>
+                  <div class="img-box">
+                    <img src="images/player_image/1/1.jpg" alt="">
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-<!--지우기 동적 할당 한 번만 필요-->
-          <div class="col-sm-6 col-lg-4 all pepper">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="images/player_image/1/1.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>Name</h5>
-                  <h5>club name</h5> <h5>captain</h5>
-                  <br>
-                  <div class="options">
-                    <input type="submit" value="more details" class="btn btn-warning">
-                    <br>
+                  <div class="detail-box" style="text-align: center">
+                    <h5>Name</h5>
+                    <h5>hometown</h5>
                   </div>
-                </div>
               </div>
-            </div>
           </div>
 
-          <div class="col-sm-6 col-lg-4 all gScal">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="images/player_image/1/1.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>Name</h5>
-                  <h5>club name</h5> <h5>captain</h5>
-                  <br>
-                  <div class="options">
-                    <input type="submit" value="more details" class="btn btn-warning">
-                    <br>
-                  </div>
-                </div>
-              </div>
+          <div class="club">
+            <div>
+                <h4>&emsp; Public Transport</h3>
+                    <div class="wrapper">
+                        <div class="one">
+                            <h6>subway</h6>
+                            <h6>line n</h6>
+                            <h6>station name</h6>
+                            <h6>nnn meters away</h6>
+                        </div>
+                        <div class="two">
+                            <h6>bus</h6>
+                            <h6>number n</h6>
+                            <h6>bus stop name</h6>
+                            <h6 style="color: yellow">nnn meters away</h6>
+                        </div>
+                        <div class="three">
+                            <h6>bus</h6>
+                            <h6>number n</h6>
+                            <h6>bus stop name</h6>
+                            <h6>nnn meters away</h6>
+                        </div>
+                    </div>
             </div>
-          </div>
+        </div>
 
-          <div class="col-sm-6 col-lg-4 all kec">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="images/player_image/1/1.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>Name</h5>
-                  <h5>club name</h5> <h5>captain</h5>
-                  <br>
-                  <div class="options">
-                    <input type="submit" value="more details" class="btn btn-warning">
-                    <br>
-                  </div>
-                </div>
-              </div>
+        <div class="club">
+            <div>
+                <h4>&emsp; Restaurant</h3>
+                    <div class="wrapper2">
+                        <div class="one2">
+                            <h6>name</h6>
+                            <h6>menu</h6>
+                            <h6>nnn meters away</h6>
+                            <h6>
+                                ★4.6 &nbsp;&nbsp;&nbsp; 
+                                <input type="submit" value="show reviews" class="btn btn-warning">
+                            </h6>
+                            <br>
+                        </div>
+                        <div class="two2">
+                            <h6>name</h6>
+                            <h6>menu</h6>
+                            <h6>nnn meters away</h6>
+                            <h6>
+                                ★4.8 &nbsp;&nbsp;&nbsp; 
+                                <input type="submit" value="show reviews" class="btn btn-warning">
+                            </h6>
+                            <br>
+                        </div>
+                    </div>
             </div>
-          </div>
+        </div>
 
         </div>
       </div>
+
     </div>
   </section>
-<!--여기까지-->
+
+  <!-- end game section -->
+
   <!-- end player section -->
 
   <!-- footer section -->
